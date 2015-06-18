@@ -1,11 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+
 ## CacheMatrix is a function that stores the inverse of a matrix. This is a 
 ## temporary store for data/computation which can be retrieved or accessed at 
 ## a later point in time.
 
 
-## Write a short comment describing this function
 ## The CacheMatrix function generates a special matrix object that can cache
 ## the inverse of the matrix. We assign this to a different environment so that 
 ## it is available for retrieving later. The solve function used here generates 
@@ -26,7 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ## the cacheSolve function computes the inverse of the matrix returned from 
 ## makeCacheMatrix.If the inverse has already been calculated and the matrix 
 ## unchanged the inverse is retrieved from the cache directly.
